@@ -29,9 +29,9 @@ const whitelist = process.env.CORS_ORIGIN
 
 app.use(
   cors({
-    origin: whitelist,
+    origin: origin:"https://study-notion-flax-eta.vercel.app",
     credentials: true,
-    maxAge: 14400,
+    
   })
 );
 
