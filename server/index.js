@@ -29,7 +29,7 @@ const whitelist = process.env.CORS_ORIGIN
 
 app.use(
   cors({
-    origin: origin:"https://study-notion-flax-eta.vercel.app",
+    origin: origin:"https://study-notion-master-beige.vercel.app",
     credentials: true,
     
   })
