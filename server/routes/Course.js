@@ -76,7 +76,7 @@ router.get("/getAllCourses", getAllCourses)
 // Get Details for a Specific Courses
 router.post("/getCourseDetails", getCourseDetails)
 // Edit a Course
-router.post("/editCourse:id", auth, isInstructor,isDemo, editCourse)
+router.post("/editCourse/:id", auth, isInstructor,isDemo, editCourse)
 // Get all Courses of a Specific Instructor
 router.get("/getInstructorCourses", auth, isInstructor, getInstructorCourses)
 //Get full course details
